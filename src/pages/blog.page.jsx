@@ -231,6 +231,7 @@ const BlogPage = () => {
 				) : (
 					<div className="h-cover flex flex-col items-center justify-center">
 						<h1 className="text-4xl font-gelasio">Blog not found</h1>
+						<h1 className="text-3xl font-gelasio">or please sign in first to read this post.</h1>
 						<Link to="/" className="text-xl mt-4 underline text-blue-500">
 							Go to Home
 						</Link>
